@@ -18,6 +18,7 @@ class Segment {
 public:
     Segment();
     void draw(); //draw each segment
+	void draw(ofVec3f _pos, ofVec3f _tar, float _scale);
 	void update(ofVec3f _pos, ofVec3f _tar, float _scale); //update each segment with a position, a target and a scale
     void drawDebug(); //draw the target and position for debugging
     void init(vector<std::pair<ofMesh, ofTexture>> _blocks, std::string _part, ofVec3f _pos = ofVec3f(0, 0, 0), ofVec3f _target = ofVec3f(1, 1, 1), float _scale = 1.0f); //initialize the segment

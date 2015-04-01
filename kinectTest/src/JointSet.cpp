@@ -3,45 +3,39 @@
 #include "JointSet.h"
 
 JointSet::JointSet(void) {
-	jointLocs = std::map<JointType, IntegratorVec3f>();
+	jointLocs = std::map<JointType, ofVec3f>();
 }
 
 JointSet::JointSet(std::map<JointType, ofVec3f> _locs, bool bzero) {
 	std::map<JointType, ofVec3f>::iterator loc;
 	for(loc = _locs.begin(); loc != _locs.end(); loc++) {
-		if(bzero) jointLocs[loc->first] = IntegratorVec3f(ofVec3f(0, 0, 0));
-		else jointLocs[loc->first] = IntegratorVec3f(loc->second);
+		if(bzero) jointLocs[loc->first] = ofVec3f(0, 0, 0);
+		else jointLocs[loc->first] = loc->second;
 	}
 }
 
 void JointSet::update(std::map<JointType, ofVec3f> _locs) {
-	std::map<JointType, IntegratorVec3f>::iterator jointLoc;
+	std::map<JointType, ofVec3f>::iterator jointLoc;
 	for(jointLoc = jointLocs.begin(); jointLoc != jointLocs.end(); jointLoc++) {
-		jointLoc->second.target(_locs.find(jointLoc->first)->second);
-		jointLoc->second.update();
+		jointLoc->second = _locs.find(jointLoc->first)->second;
 	}
 }
 
 std::map<JointType, ofVec3f> JointSet::getVals() {
-	std::map<JointType, ofVec3f> returnMap;
-	std::map<JointType, IntegratorVec3f>::iterator jointLoc;
-	for(jointLoc = jointLocs.begin(); jointLoc != jointLocs.end(); jointLoc++) {
-		returnMap[jointLoc->first] = jointLoc->second.val;
-	}
-	return returnMap;
+	return jointLocs;
 }
 
 void JointSet::setAllZs(float val) {
-	std::map<JointType, IntegratorVec3f>::iterator jointLoc;
+	std::map<JointType, ofVec3f>::iterator jointLoc;
 	 for(jointLoc = jointLocs.begin(); jointLoc != jointLocs.end(); jointLoc++) {
-		 jointLoc->second.setZ(val);
+		 jointLoc->second.z = val;
 	 }
 }
 
 void JointSet::setRandomStartingPoints() {
-	 std::map<JointType, IntegratorVec3f>::iterator jointLoc;
+	 std::map<JointType, ofVec3f>::iterator jointLoc;
 	 for(jointLoc = jointLocs.begin(); jointLoc != jointLocs.end(); jointLoc++) {
-		 jointLoc->second = IntegratorVec3f(getRandOffscreenLoc());
+		 jointLoc->second = getRandOffscreenLoc();
 	 }
 }
 
@@ -69,11 +63,11 @@ std::pair<bool, ofVec3f> JointSet::detectHighFives(JointSet otherJoints, float t
 	ofVec3f thatLeftHand;
 	ofVec3f thatRightHand;
 
-	thisLeftHand = jointLocs.find(JointType::JointType_HandLeft)->second.val;
-	thisRightHand = jointLocs.find(JointType::JointType_HandRight)->second.val;
+	thisLeftHand = jointLocs.find(JointType::JointType_HandLeft)->second;
+	thisRightHand = jointLocs.find(JointType::JointType_HandRight)->second;
 	
-	thatLeftHand = otherJoints.jointLocs.find(JointType::JointType_HandLeft)->second.val;
-	thatRightHand = otherJoints.jointLocs.find(JointType::JointType_HandRight)->second.val;
+	thatLeftHand = otherJoints.jointLocs.find(JointType::JointType_HandLeft)->second;
+	thatRightHand = otherJoints.jointLocs.find(JointType::JointType_HandRight)->second;
 
 	ofVec3f diff = thisLeftHand - thatRightHand;
 	float dist1 = diff.length();
@@ -116,8 +110,8 @@ std::pair<bool, ofVec3f> JointSet::detectClap(float threshold) {
 	ofVec3f leftHand;
 	ofVec3f rightHand;
 
-	leftHand = jointLocs.find(JointType::JointType_HandTipLeft)->second.val;
-	rightHand = jointLocs.find(JointType::JointType_HandTipRight)->second.val;
+	leftHand = jointLocs.find(JointType::JointType_HandTipLeft)->second;
+	rightHand = jointLocs.find(JointType::JointType_HandTipRight)->second;
 
 	ofVec3f diff = leftHand - rightHand;
 	ofVec3f mid = leftHand.middle(rightHand);

@@ -33,11 +33,14 @@ class ofApp : public ofBaseApp{
 		ofMesh background;
 		ofLight light;
 		ofMesh walls;
+		vector<std::string> preloadedCostumes;
+		vector<std::string> generatedCostumes;
 		map<std::string, Costume> costumesLib;
 		map<int, JointSet> activeJointSets;
 		map<int, std::string> activeCostumes;
 		std::map<std::pair<int, int>, ofVec3f> highFivingPairs;
 		std::map<int, ofVec3f> clappingBodies;
+		std::map<std::pair<std::string, std::string>, Segment> segmentsLib;
 		std::string nextCostume;
 		ofxSplashScreen splashScreen;
 		bool loaded, nextModelChosen;

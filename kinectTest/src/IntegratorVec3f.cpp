@@ -3,6 +3,7 @@
 
 IntegratorVec3f::IntegratorVec3f(void)
 {
+	val = ofVec3f(0, 0, 0);
 	mass = 1;
 	damping = DAMPING;
 	attraction = ATTRACTION;

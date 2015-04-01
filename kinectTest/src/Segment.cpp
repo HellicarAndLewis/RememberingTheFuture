@@ -50,6 +50,29 @@ void Segment::draw() {
 	ofPopStyle();
 }
 
+//------ draw the segment
+void Segment::draw(ofVec3f _pos, ofVec3f _tar, float _scale) {
+	ofPushStyle();
+    ofPushMatrix();
+		ofTranslate(_pos.x, _pos.y, _pos.z); //translate to position
+		ofScale(_scale, _scale, _scale); //scale the the appropriate size
+		//get the necessary rotation for the angle between positiona nd target
+		ofQuaternion q = getQuaternion(_pos-_tar, ofVec3f(0, 0, 1));
+		float qangle;
+		ofVec3f qvec;
+		q.getRotate(qangle, qvec);
+		ofRotate(qangle, qvec.x, qvec.y, qvec.z); //apply rotation
+		//iterate over meshes and draw each one with the appropriate texture
+		vector<std::pair<ofMesh, ofTexture>>::iterator blockIt;
+		for(blockIt = blocks.begin(); blockIt != blocks.end(); blockIt++) {
+			blockIt->second.bind();
+			blockIt->first.draw();
+			blockIt->second.unbind();
+		}
+    ofPopMatrix();
+	ofPopStyle();
+}
+
 //------
 void Segment::setScale(float newScale) {
 	//scale.set(newScale);

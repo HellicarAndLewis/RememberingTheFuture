@@ -18,7 +18,7 @@ public:
 	std::pair<bool, ofVec3f> detectHighFives(JointSet otherJoints, float threshold = 10.0f);
 	std::pair<bool, ofVec3f> detectClap(float threshold = 10.0f);
 	bool isClapping(void);
-	std::map<JointType, IntegratorVec3f> jointLocs;
+	std::map<JointType, ofVec3f> jointLocs;
 private:
 	ofVec3f getRandOffscreenLoc();
 	float getRandOffscreenVal(float dimension);

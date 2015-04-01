@@ -17,8 +17,6 @@ Costume::Costume(void)
 	bonePairs["leftLowerLeg"] = std::make_pair(JointType::JointType_KneeLeft, JointType::JointType_AnkleLeft);
 	bonePairs["rightUpperLeg"] = std::make_pair(JointType::JointType_HipRight, JointType::JointType_KneeRight);
 	bonePairs["rightLowerLeg"] = std::make_pair(JointType::JointType_KneeRight, JointType::JointType_AnkleRight);
-	//initialize the map of segments
-	segments = std::map<std::pair<JointType, JointType>, Segment>();
 }
 
 //--------
@@ -26,36 +24,50 @@ Costume::~Costume(void)
 {
 }
 
-//--------
-void Costume::init(std::map<std::string, Segment> _segments) {
-	std::map<std::string, Segment>::iterator segment;
-	for(segment = _segments.begin(); segment != _segments.end(); segment++) {
-		segments[bonePairs[segment->first]] = segment->second;
-	}
-}
-
-//--------
-void Costume::init(std::vector<Segment> _segments) {
-	std::vector<Segment>::iterator segment;
-	for(segment = _segments.begin(); segment != _segments.end(); segment++) {
-		segments[bonePairs[segment->getPart()]] = *segment;
-	}
-}
-
-//--------
-void Costume::init(Segment _segment) {
+void Costume::init(std::string input) {
 	std::map<std::string, std::pair<JointType, JointType>>::iterator bonePair;
 	for(bonePair = bonePairs.begin(); bonePair != bonePairs.end(); bonePair++) {
-		segments[bonePair->second] = _segment;
+		segments[bonePair->first] = std::make_pair(input, bonePair->first);
+		myJointPositions[bonePair->second.first] = IntegratorVec3f();
+		myJointPositions[bonePair->second.second] = IntegratorVec3f();
+	}
+}
+
+void Costume::initRandSensible(std::map<std::pair<std::string, std::string>, Segment>* allSegments) {
+	std::map<std::string, std::pair<JointType, JointType>>::iterator bonePair;
+	for(bonePair = bonePairs.begin(); bonePair != bonePairs.end(); bonePair++) {
+		auto it = allSegments->begin();
+		std::advance(it, rand() % allSegments->size());
+		std::pair<std::string, std::string> newSegment = it->first;
+		segments[bonePair->first] = newSegment;
+		myJointPositions[bonePair->second.first] = IntegratorVec3f();
+		myJointPositions[bonePair->second.second] = IntegratorVec3f();
+	}
+}
+
+void Costume::initRandTotal(std::map<std::pair<std::string, std::string>, Segment>* allSegments) {
+	std::map<std::string, std::pair<JointType, JointType>>::iterator bonePair;
+	for(bonePair = bonePairs.begin(); bonePair != bonePairs.end(); bonePair++) {
+		auto it = allSegments->begin();
+		std::advance(it, rand() % allSegments->size());
+		std::pair<std::string, std::string> newSegment = it->first;
+		segments[bonePair->first] = std::make_pair(newSegment.first, bonePair->first);
+		myJointPositions[bonePair->second.first] = IntegratorVec3f();
+		myJointPositions[bonePair->second.second] = IntegratorVec3f();
 	}
 }
 
 //--------
-void Costume::draw() {
+void Costume::draw(std::map<std::pair<std::string, std::string>, Segment>* allSegments) {
 	if(visible) {
-		std::map<std::pair<JointType, JointType>, Segment>::iterator segment;
+		std::map<std::string, std::pair<std::string, std::string>>::iterator segment;
 		for(segment = segments.begin(); segment != segments.end(); segment++) {
-			segment->second.draw();
+			ofVec3f pos = myJointPositions[bonePairs[segment->first].first].val;
+			ofVec3f tar = myJointPositions[bonePairs[segment->first].second].val;
+			ofVec3f diff = pos - tar;
+			float dist = diff.length();
+			float scale = ofMap(dist, 0, 200, 0, 1); //MAGIC NUMBERS!!!!
+			allSegments->find(segment->second)->second.draw(pos, tar, scale);
 		}
 		visible = false;
 	}
@@ -63,29 +75,31 @@ void Costume::draw() {
 
 //--------
 void Costume::update(std::map<JointType, ofVec3f> _jointPositions) {
-	std::map<std::pair<JointType, JointType>, Segment>::iterator segment;
-	for(segment = segments.begin(); segment != segments.end(); segment++) {
-		ofVec3f pos = _jointPositions.find(segment->first.first)->second;
-		ofVec3f tar = _jointPositions.find(segment->first.second)->second;
-		ofVec3f diff = pos - tar;
-		float dist = diff.length();
-		float scale = ofMap(dist, 0, 200, 0, 1); //MAGIC NUMBERS!!!!
-		segment->second.update(pos, tar, scale);
+	std::map<JointType, IntegratorVec3f>::iterator myJointPos;
+	for(myJointPos = myJointPositions.begin();  myJointPos != myJointPositions.end(); myJointPos++) {
+		ofVec3f target = _jointPositions.find(myJointPos->first)->second;
+		myJointPos->second.target(target);
+		myJointPos->second.update();
 	}
 	visible = true;
 }
 
 //--------
-void Costume::set(std::string part, Segment seg) {
-	seg.setPos(segments[bonePairs[part]].pos);
-	seg.setTar(segments[bonePairs[part]].target);
-	seg.setScale(segments[bonePairs[part]].scale);
-
-  	segments[bonePairs[part]] = seg;
+void Costume::set(std::string part, std::pair<std::string, std::string> seg) {
+	segments[part] = seg;
 }
 
-std::map<std::pair<JointType, JointType>, Segment> Costume::getSegments() {
+std::map<std::string, std::pair<std::string, std::string>> Costume::getSegments() {
 	return segments;
+}
+
+void Costume::setPositions(std::map<JointType, ofVec3f> _jointPositions) {
+	std::map<JointType, IntegratorVec3f>::iterator myJointPos;
+	for(myJointPos = myJointPositions.begin();  myJointPos != myJointPositions.end(); myJointPos++) {
+		ofVec3f target = _jointPositions.find(myJointPos->first)->second;
+		myJointPos->second.set(target);
+		myJointPos->second.target(target);
+	}
 }
 
 

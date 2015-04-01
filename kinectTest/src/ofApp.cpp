@@ -71,15 +71,18 @@ void ofApp::load(){
 						cos = splitString[2];
 						std::vector<std::string> splitPart = ofSplitString(splitString[3], "."); //get the nameof the body part by splitting the string on "." to remove .dae extension
 						std::string part = splitPart[0];
+						std::pair<std::string, std::string> pair = std::make_pair(cos, part);
 						//initialize segment with meshes textures and location
 						Segment seg;
 						seg.init(blocks, part);
 						segs.push_back(seg); //populate segs vector for this costume
+						segmentsLib[pair] = seg; // populate segments map for random costumes
 					}
-					//for each costume createa  costume, initialize it with the loaded segments and save it to the costumesLib
+					//for each costume create a costume, initialize it with the loaded segments and save it to the costumesLib
 					Costume costume;
-					costume.init(segs);
+					costume.init(cos);
 					costumesLib[cos] = costume;
+					preloadedCostumes.push_back(cos);
 				}
 			}
 		}
@@ -130,7 +133,6 @@ void ofApp::update(){
 				}
 				activeCostumes[*trackedId] = nextCostume; //add an active costume if the id is not found in the list of already active costumes
 				JointSet newJointSet = JointSet(this->kinect.getBodySource()->getPositions3D(*trackedId)); //add an active jointset if the id is not found in the list of already active jointSets
-				newJointSet.setAllZs(-1000);
 				activeJointSets[*trackedId] = newJointSet;
 			}
 		}
@@ -158,7 +160,36 @@ void ofApp::update(){
 			activeJointSets.erase(*costumeToErase); //erase each missing set of joints
 		}
 
-		// update the activeJonts array, look for claps and high-fives;
+		//look through the costumesLib to find costumes that we can delete.
+		vector<string> costumesToDelete;
+		vector<string>::iterator preloadedCostume;
+		map<std::string, Costume>::iterator costume;
+		for(costume = costumesLib.begin(); costume != costumesLib.end(); costume++) {
+			bool found = false;
+			for(trackedId = trackedIds.begin(); trackedId != trackedIds.end(); trackedId++) {
+				if(ofToString(*trackedId) == costume->first) {
+					found = true;
+					break;
+				}
+			}
+			if(!found) {
+				for(preloadedCostume = preloadedCostumes.begin(); preloadedCostume != preloadedCostumes.end(); preloadedCostume++) {
+					if(*preloadedCostume == costume->first) {
+						found = true;
+						break;
+					}
+				}
+			}
+			if(!found) costumesToDelete.push_back(costume->first);
+		}
+
+		//erase all costumes not found
+		vector<string>::iterator costumeToDelete;
+		for(costumeToDelete = costumesToDelete.begin(); costumeToDelete != costumesToDelete.end(); costumeToDelete++) {
+			costumesLib.erase(*costumeToDelete);
+		}
+
+		// update the activeJonts array, look for claps and high-fives
 		for(trackedId = trackedIds.begin(); trackedId != trackedIds.end(); trackedId++) {
 			std::map<JointType, ofVec3f> body = this->kinect.getBodySource()->getPositions3D(activeJointSets.find(*trackedId)->first);
 			activeJointSets.find(*trackedId)->second.update(body);
@@ -216,6 +247,43 @@ void ofApp::update(){
 				}
 			}
 		}
+
+		//delete untracked high-five locations
+		std::vector<std::pair<int, int>> pairsToDelete;
+		std::map<std::pair<int, int>, ofVec3f>::iterator highFivingPair;
+		for(highFivingPair = highFivingPairs.begin(); highFivingPair != highFivingPairs.end(); highFivingPair++) {
+			bool tracked1 = false;
+			bool tracked2 = false;
+			for(trackedId = trackedIds.begin(); trackedId != trackedIds.end(); trackedId++) {
+				if(highFivingPair->first.first == *trackedId) tracked1 = true;
+				if(highFivingPair->first.second == *trackedId) tracked2 = true;
+			}
+			if(!tracked1 || !tracked2) {
+				pairsToDelete.push_back(highFivingPair->first);
+			}
+		}
+		std::vector<std::pair<int, int>>::iterator pairToDelete;
+		for(pairToDelete = pairsToDelete.begin(); pairToDelete != pairsToDelete.end(); pairToDelete++) {
+			highFivingPairs.erase(*pairToDelete);
+		}
+
+		//delete untracked clap locations
+		std::vector<int> clappersToDelete;
+		std::map<int, ofVec3f>::iterator clappingBody;
+		for(clappingBody = clappingBodies.begin(); clappingBody != clappingBodies.end(); clappingBody++) {
+			bool tracked = false;
+			for(trackedId = trackedIds.begin(); trackedId != trackedIds.end(); trackedId++) {
+				if(clappingBody->first == *trackedId) tracked = true;
+			}
+			if(!tracked) {
+				pairsToDelete.push_back(highFivingPair->first);
+			}
+		}
+		std::vector<int>::iterator clapperToDelete;
+		for(clapperToDelete = clappersToDelete.begin(); clapperToDelete != clappersToDelete.end(); clapperToDelete++) {
+			clappingBodies.erase(*clapperToDelete);
+		}
+
 	}
 }
 
@@ -248,7 +316,7 @@ void ofApp::draw(){
 			for(costume = activeCostumes.begin(); costume != activeCostumes.end(); costume++) {
 				std::map<JointType, ofVec3f> body = this->kinect.getBodySource()->getPositions3D(costume->first);
 				costumesLib[costume->second].update(activeJointSets.find(costume->first)->second.getVals());
-				costumesLib[costume->second].draw();
+				costumesLib[costume->second].draw(&segmentsLib);
 				ofDrawBitmapString(ofToString(costume->first), 10, 10-spacing);
 				spacing += 10;
 			}
@@ -394,6 +462,12 @@ void ofApp::onHighFive(int trackingId1, int trackingId2) {
 
 void ofApp::onClap(int trackingId) {
 	cout<<trackingId<<" clapped!"<<endl;
+	Costume newCos;
+	newCos.initRandSensible(&segmentsLib);
+	std::string cosName = ofToString(trackingId);
+	newCos.setPositions(activeJointSets[trackingId].getVals());
+	costumesLib[cosName] = newCos;
+	activeCostumes.find(trackingId)->second = cosName;
 }
 
 //--------------------------------------------------------------
