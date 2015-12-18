@@ -1,0 +1,99 @@
+
+
+--------------------------------------- 2015-08-21-12-39-41-214
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[notice ] [2015-08-21-12-39-59-462] 99584 entered the frame
+
+[notice ] [2015-08-21-12-40-03-166] 99609 entered the frame
+
+[notice ] [2015-08-21-12-40-05-006] 99609 left the frame
+
+[notice ] [2015-08-21-12-40-05-672] 99616 entered the frame
+
+[notice ] [2015-08-21-12-40-06-466] 99616 left the frame
+
+[notice ] [2015-08-21-12-40-15-767] 99626 entered the frame
+
+[notice ] [2015-08-21-12-40-16-139] 99584 left the frame
+
+[notice ] [2015-08-21-12-40-18-266] 99626 left the frame
+
+[notice ] [2015-08-21-12-40-19-399] 99653 entered the frame
+
+[notice ] [2015-08-21-12-40-20-233] 99663 entered the frame
+
+[notice ] [2015-08-21-12-40-26-334] 99663 left the frame
+
+[notice ] [2015-08-21-12-40-27-299] 99675 entered the frame
+
+[notice ] [2015-08-21-12-40-27-467] 99676 entered the frame
+
+[notice ] [2015-08-21-12-40-28-001] 99653 left the frame
+
+[notice ] [2015-08-21-12-40-28-001] 99675 left the frame
+
+[notice ] [2015-08-21-12-40-28-406] 99687 entered the frame
+
+[notice ] [2015-08-21-12-40-30-973] 99676 left the frame
+
+[notice ] [2015-08-21-12-40-35-268] 99687 left the frame
+
+[notice ] [2015-08-21-12-40-35-468] 99800 entered the frame
+
+[notice ] [2015-08-21-12-40-41-900] 99800 left the frame
+
+[notice ] [2015-08-21-12-40-42-307] 99911 entered the frame
+
+[notice ] [2015-08-21-12-40-42-974] 99911 left the frame
+
+[notice ] [2015-08-21-12-40-43-767] 99948 entered the frame
+
+[notice ] [2015-08-21-12-40-44-674] 99960 entered the frame
+
+[notice ] [2015-08-21-12-40-45-508] 99960 left the frame
+
+[notice ] [2015-08-21-12-40-53-801] 99948 left the frame
+
+[notice ] [2015-08-21-12-41-02-335] 100107 entered the frame
+
+[notice ] [2015-08-21-12-41-04-207] 100107 left the frame
+
+[notice ] [2015-08-21-12-41-13-233] 100206 entered the frame
+
+[notice ] [2015-08-21-12-41-15-834] 100206 left the frame
+
+[notice ] [2015-08-21-12-41-25-435] 100349 entered the frame
+
+[notice ] [2015-08-21-12-41-27-069] 100349 left the frame
+
+[notice ] [2015-08-21-12-41-28-935] 100373 entered the frame
+

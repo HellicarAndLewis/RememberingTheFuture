@@ -1,0 +1,119 @@
+
+
+--------------------------------------- 2015-08-15-17-16-32-298
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[notice ] [2015-08-15-17-17-17-726] 5096 entered the frame
+
+[notice ] [2015-08-15-17-17-20-092] 5150 entered the frame
+
+[notice ] [2015-08-15-17-17-20-768] 5096 left the frame
+
+[notice ] [2015-08-15-17-17-22-260] 5150 left the frame
+
+[notice ] [2015-08-15-17-17-26-560] 5199 entered the frame
+
+[notice ] [2015-08-15-17-17-28-693] 5236 entered the frame
+
+[notice ] [2015-08-15-17-17-29-060] 5199 left the frame
+
+[notice ] [2015-08-15-17-17-31-992] 5236 left the frame
+
+[notice ] [2015-08-15-17-17-40-793] 5432 entered the frame
+
+[notice ] [2015-08-15-17-17-42-962] 5432 left the frame
+
+[notice ] [2015-08-15-17-17-48-627] 5608 entered the frame
+
+[notice ] [2015-08-15-17-17-53-662] 5610 entered the frame
+
+[notice ] [2015-08-15-17-17-58-061] 5610 left the frame
+
+[notice ] [2015-08-15-17-17-59-194] 5608 left the frame
+
+[notice ] [2015-08-15-17-31-42-459] 5738 entered the frame
+
+[notice ] [2015-08-15-17-31-44-594] 5759 entered the frame
+
+[notice ] [2015-08-15-17-31-49-760] 5759 left the frame
+
+[notice ] [2015-08-15-17-31-57-226] 5738 left the frame
+
+[notice ] [2015-08-15-17-38-40-841] 5843 entered the frame
+
+[notice ] [2015-08-15-17-38-46-843] 5843 left the frame
+
+[notice ] [2015-08-15-17-41-04-514] 6017 entered the frame
+
+[notice ] [2015-08-15-17-41-08-714] 6017 left the frame
+
+[notice ] [2015-08-15-17-46-47-860] 6171 entered the frame
+
+[notice ] [2015-08-15-17-46-50-694] 6171 left the frame
+
+[notice ] [2015-08-15-17-46-53-661] 6176 entered the frame
+
+[notice ] [2015-08-15-17-46-56-527] 6176 left the frame
+
+[notice ] [2015-08-15-17-56-10-916] 6252 entered the frame
+
+[notice ] [2015-08-15-17-56-13-650] 6252 left the frame
+
+[notice ] [2015-08-15-17-58-16-954] 6503 entered the frame
+
+[notice ] [2015-08-15-17-58-20-654] 6503 left the frame
+
+[notice ] [2015-08-15-17-58-50-756] 6630 entered the frame
+
+[notice ] [2015-08-15-17-58-51-189] 6639 entered the frame
+
+[notice ] [2015-08-15-17-58-52-931] 6639 left the frame
+
+[notice ] [2015-08-15-17-58-55-522] 6630 left the frame
+
+[notice ] [2015-08-15-17-59-01-955] 6708 entered the frame
+
+[notice ] [2015-08-15-17-59-02-457] 6718 entered the frame
+
+[notice ] [2015-08-15-17-59-02-823] 6722 entered the frame
+
+[notice ] [2015-08-15-17-59-04-523] 6722 left the frame
+
+[notice ] [2015-08-15-17-59-04-889] 6708 left the frame
+
+[notice ] [2015-08-15-17-59-06-490] 6718 left the frame
+
+[notice ] [2015-08-15-18-08-42-879] 7794 entered the frame
+
+[notice ] [2015-08-15-18-08-44-946] 7794 left the frame
+
+[notice ] [2015-08-15-18-08-50-246] 7807 entered the frame
+

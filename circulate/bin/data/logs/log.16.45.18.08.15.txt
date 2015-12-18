@@ -1,0 +1,99 @@
+
+
+--------------------------------------- 2015-08-18-16-45-57-568
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[notice ] [2015-08-18-16-46-41-839] 86372 entered the frame
+
+[notice ] [2015-08-18-16-46-42-438] 86374 entered the frame
+
+[notice ] [2015-08-18-16-46-42-673] 86372 left the frame
+
+[notice ] [2015-08-18-16-46-42-972] 86374 left the frame
+
+[notice ] [2015-08-18-16-46-52-105] 86520 entered the frame
+
+[notice ] [2015-08-18-16-46-53-913] 86520 left the frame
+
+[notice ] [2015-08-18-16-47-07-807] 86580 entered the frame
+
+[notice ] [2015-08-18-16-47-08-380] 86585 entered the frame
+
+[notice ] [2015-08-18-16-47-10-239] 86585 left the frame
+
+[notice ] [2015-08-18-16-47-10-940] 86580 left the frame
+
+[notice ] [2015-08-18-16-47-16-272] 86676 entered the frame
+
+[notice ] [2015-08-18-16-47-16-439] 86677 entered the frame
+
+[notice ] [2015-08-18-16-47-17-207] 86676 left the frame
+
+[notice ] [2015-08-18-16-47-17-940] 86677 left the frame
+
+[notice ] [2015-08-18-16-47-28-940] 86740 entered the frame
+
+[notice ] [2015-08-18-16-47-29-041] 86740 left the frame
+
+[notice ] [2015-08-18-16-47-58-807] 87203 entered the frame
+
+[notice ] [2015-08-18-16-48-00-914] 87231 entered the frame
+
+[notice ] [2015-08-18-16-48-01-050] 87203 left the frame
+
+[notice ] [2015-08-18-16-48-01-084] 87232 entered the frame
+
+[notice ] [2015-08-18-16-48-01-515] 87231 left the frame
+
+[notice ] [2015-08-18-16-48-02-675] 87232 left the frame
+
+[notice ] [2015-08-18-16-48-05-243] 87249 entered the frame
+
+[notice ] [2015-08-18-16-48-07-976] 87249 left the frame
+
+[notice ] [2015-08-18-16-48-32-309] 87477 entered the frame
+
+[notice ] [2015-08-18-16-48-37-144] 87477 left the frame
+
+[notice ] [2015-08-18-16-48-42-942] 87564 entered the frame
+
+[notice ] [2015-08-18-16-48-48-644] 87686 entered the frame
+
+[notice ] [2015-08-18-16-48-48-878] 87686 left the frame
+
+[notice ] [2015-08-18-16-48-49-277] 87690 entered the frame
+
+[notice ] [2015-08-18-16-48-51-110] 87564 left the frame
+
+[notice ] [2015-08-18-16-48-51-343] 87690 left the frame
+
+[notice ] [2015-08-18-16-49-00-011] 87773 entered the frame
+

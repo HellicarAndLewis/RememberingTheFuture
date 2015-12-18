@@ -1,0 +1,13 @@
+
+
+--------------------------------------- 2015-07-30-13-09-30-165
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[notice ] [2015-07-30-13-09-58-977] 2048 entered the frame
+
+[notice ] [2015-07-30-13-10-03-698] 2048 left the frame
+
+[notice ] [2015-07-30-13-10-05-129] 2251 entered the frame
+

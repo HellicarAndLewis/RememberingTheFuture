@@ -1,0 +1,3 @@
+ofxAssimpModelLoader
+ofxKinectForWindows2
+ofxSplashScreen

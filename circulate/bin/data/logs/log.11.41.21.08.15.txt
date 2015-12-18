@@ -1,0 +1,229 @@
+
+
+--------------------------------------- 2015-08-21-11-41-47-653
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[notice ] [2015-08-21-11-42-25-975] 65873 entered the frame
+
+[notice ] [2015-08-21-11-42-28-434] 65873 left the frame
+
+[notice ] [2015-08-21-11-42-46-402] 66150 entered the frame
+
+[notice ] [2015-08-21-11-42-48-203] 66178 entered the frame
+
+[notice ] [2015-08-21-11-42-49-876] 66150 left the frame
+
+[notice ] [2015-08-21-11-42-51-371] 66178 left the frame
+
+[notice ] [2015-08-21-11-42-51-576] 66193 entered the frame
+
+[notice ] [2015-08-21-11-42-54-876] 66193 left the frame
+
+[notice ] [2015-08-21-11-43-04-902] 66448 entered the frame
+
+[notice ] [2015-08-21-11-43-08-803] 66519 entered the frame
+
+[notice ] [2015-08-21-11-43-15-110] 66675 entered the frame
+
+[notice ] [2015-08-21-11-43-15-745] 66675 left the frame
+
+[notice ] [2015-08-21-11-43-17-636] 66724 entered the frame
+
+[notice ] [2015-08-21-11-43-18-272] 66724 left the frame
+
+[notice ] [2015-08-21-11-43-39-379] 67087 entered the frame
+
+[notice ] [2015-08-21-11-43-39-881] 67087 left the frame
+
+[notice ] [2015-08-21-11-43-59-240] 67426 entered the frame
+
+[notice ] [2015-08-21-11-43-59-339] 67426 left the frame
+
+[notice ] [2015-08-21-11-44-00-115] 66448 left the frame
+
+[notice ] [2015-08-21-11-44-03-080] 67502 entered the frame
+
+[notice ] [2015-08-21-11-44-03-214] 66519 left the frame
+
+[notice ] [2015-08-21-11-44-03-278] 67504 entered the frame
+
+[notice ] [2015-08-21-11-44-08-579] 67502 left the frame
+
+[notice ] [2015-08-21-11-44-08-579] 67504 left the frame
+
+[notice ] [2015-08-21-11-44-20-738] 67777 entered the frame
+
+[notice ] [2015-08-21-11-44-29-239] 67777 left the frame
+
+[notice ] [2015-08-21-11-44-47-406] 68294 entered the frame
+
+[notice ] [2015-08-21-11-44-48-513] 68294 left the frame
+
+[notice ] [2015-08-21-11-45-27-241] 68516 entered the frame
+
+[notice ] [2015-08-21-11-45-29-508] 68516 left the frame
+
+[notice ] [2015-08-21-11-45-30-041] 68592 entered the frame
+
+[notice ] [2015-08-21-11-45-30-409] 68592 left the frame
+
+[notice ] [2015-08-21-11-45-34-383] 68622 entered the frame
+
+[notice ] [2015-08-21-11-45-36-182] 68622 left the frame
+
+[notice ] [2015-08-21-11-46-00-710] 69052 entered the frame
+
+[notice ] [2015-08-21-11-46-02-509] 69052 left the frame
+
+[notice ] [2015-08-21-11-46-06-649] 69090 entered the frame
+
+[notice ] [2015-08-21-11-46-06-809] 69091 entered the frame
+
+[notice ] [2015-08-21-11-46-10-543] 69145 entered the frame
+
+[notice ] [2015-08-21-11-46-12-717] 69199 entered the frame
+
+[notice ] [2015-08-21-11-46-17-310] 69090 left the frame
+
+[notice ] [2015-08-21-11-46-22-550] 69203 entered the frame
+
+[notice ] [2015-08-21-11-46-28-219] 69203 left the frame
+
+[notice ] [2015-08-21-11-46-28-851] 69145 left the frame
+
+[notice ] [2015-08-21-11-46-29-578] 69219 entered the frame
+
+[notice ] [2015-08-21-11-46-30-179] 69224 entered the frame
+
+[notice ] [2015-08-21-11-46-30-889] 69219 left the frame
+
+[notice ] [2015-08-21-11-46-32-755] 69225 entered the frame
+
+[notice ] [2015-08-21-11-46-33-843] 69091 left the frame
+
+[notice ] [2015-08-21-11-46-35-512] 69266 entered the frame
+
+[notice ] [2015-08-21-11-46-38-319] 69266 left the frame
+
+[notice ] [2015-08-21-11-46-40-185] 69272 entered the frame
+
+[notice ] [2015-08-21-11-46-45-579] 69272 left the frame
+
+[notice ] [2015-08-21-11-46-48-021] 69283 entered the frame
+
+[notice ] [2015-08-21-11-46-56-819] 69283 left the frame
+
+[notice ] [2015-08-21-11-46-59-118] 69320 entered the frame
+
+[notice ] [2015-08-21-11-47-00-246] 69225 left the frame
+
+[notice ] [2015-08-21-11-47-01-992] 69320 left the frame
+
+[notice ] [2015-08-21-11-47-04-053] 69338 entered the frame
+
+[notice ] [2015-08-21-11-47-07-319] 69199 left the frame
+
+[notice ] [2015-08-21-11-47-08-820] 69224 left the frame
+
+[notice ] [2015-08-21-11-47-09-946] 69338 left the frame
+
+[notice ] [2015-08-21-11-47-11-679] 69429 entered the frame
+
+[notice ] [2015-08-21-11-47-12-113] 69429 left the frame
+
+[notice ] [2015-08-21-11-47-15-645] 69503 entered the frame
+
+[notice ] [2015-08-21-11-47-16-613] 69503 left the frame
+
+[notice ] [2015-08-21-11-47-18-845] 69580 entered the frame
+
+[notice ] [2015-08-21-11-47-19-013] 69581 entered the frame
+
+[notice ] [2015-08-21-11-47-37-680] 69682 entered the frame
+
+[notice ] [2015-08-21-11-47-38-246] 69682 left the frame
+
+[notice ] [2015-08-21-11-47-41-448] 69580 left the frame
+
+[notice ] [2015-08-21-11-47-41-614] 69581 left the frame
+
+[notice ] [2015-08-21-11-47-42-913] 69736 entered the frame
+
+[notice ] [2015-08-21-11-47-44-847] 69737 entered the frame
+
+[notice ] [2015-08-21-11-47-47-947] 69770 entered the frame
+
+[notice ] [2015-08-21-11-47-49-646] 69770 left the frame
+
+[notice ] [2015-08-21-11-47-52-646] 69816 entered the frame
+
+[notice ] [2015-08-21-11-47-52-814] 69817 entered the frame
+
+[notice ] [2015-08-21-11-47-53-315] 69816 left the frame
+
+[notice ] [2015-08-21-11-47-53-448] 69737 left the frame
+
+[notice ] [2015-08-21-11-47-53-682] 69823 entered the frame
+
+[notice ] [2015-08-21-11-47-54-755] 69817 left the frame
+
+[notice ] [2015-08-21-11-47-57-647] 69899 entered the frame
+
+[notice ] [2015-08-21-11-48-19-682] 69823 left the frame
+
+[notice ] [2015-08-21-11-48-20-515] 70158 entered the frame
+
+[notice ] [2015-08-21-11-48-22-148] 70179 entered the frame
+
+[notice ] [2015-08-21-11-48-22-654] 70179 left the frame
+
+[notice ] [2015-08-21-11-48-26-481] 70158 left the frame
+
+[notice ] [2015-08-21-11-48-27-215] 70184 entered the frame
+
+[notice ] [2015-08-21-11-48-27-614] 69736 left the frame
+
+[notice ] [2015-08-21-11-48-28-288] 70184 left the frame
+
+[notice ] [2015-08-21-11-48-28-548] 70203 entered the frame
+
+[notice ] [2015-08-21-11-48-28-983] 70203 left the frame
+
+[notice ] [2015-08-21-11-48-29-248] 70209 entered the frame
+
+[notice ] [2015-08-21-11-48-29-582] 69899 left the frame
+
+[notice ] [2015-08-21-11-48-29-848] 70212 entered the frame
+
+[notice ] [2015-08-21-11-48-31-782] 70248 entered the frame
+
+[notice ] [2015-08-21-11-48-38-222] 70303 entered the frame
+

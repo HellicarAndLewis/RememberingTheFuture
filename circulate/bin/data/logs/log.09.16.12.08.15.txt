@@ -1,0 +1,99 @@
+
+
+--------------------------------------- 2015-08-12-09-16-20-854
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[notice ] [2015-08-12-09-16-59-803] 3417 entered the frame
+
+[notice ] [2015-08-12-09-17-01-404] 3417 left the frame
+
+[notice ] [2015-08-12-09-18-08-373] 3561 entered the frame
+
+[notice ] [2015-08-12-09-18-10-373] 3561 left the frame
+
+[notice ] [2015-08-12-09-19-13-542] 3568 entered the frame
+
+[notice ] [2015-08-12-09-19-15-375] 3568 left the frame
+
+[notice ] [2015-08-12-09-19-35-542] 3577 entered the frame
+
+[notice ] [2015-08-12-09-19-36-843] 3577 left the frame
+
+[notice ] [2015-08-12-09-19-52-743] 3591 entered the frame
+
+[notice ] [2015-08-12-09-20-29-753] 3591 left the frame
+
+[notice ] [2015-08-12-09-20-42-412] 3863 entered the frame
+
+[notice ] [2015-08-12-09-20-43-812] 3888 entered the frame
+
+[notice ] [2015-08-12-09-20-44-812] 3888 left the frame
+
+[notice ] [2015-08-12-09-21-32-748] 3863 left the frame
+
+[notice ] [2015-08-12-09-27-27-794] 4024 entered the frame
+
+[notice ] [2015-08-12-09-27-32-362] 4024 left the frame
+
+[notice ] [2015-08-12-09-27-36-696] 4050 entered the frame
+
+[notice ] [2015-08-12-09-27-38-361] 4050 left the frame
+
+[notice ] [2015-08-12-09-27-52-062] 4057 entered the frame
+
+[notice ] [2015-08-12-09-27-55-629] 4057 left the frame
+
+[notice ] [2015-08-12-09-28-31-864] 4063 entered the frame
+
+[notice ] [2015-08-12-09-28-32-997] 4063 left the frame
+
+[notice ] [2015-08-12-09-29-30-974] 4070 entered the frame
+
+[notice ] [2015-08-12-09-29-32-699] 4070 left the frame
+
+[notice ] [2015-08-12-09-30-35-076] 4072 entered the frame
+
+[notice ] [2015-08-12-09-30-37-276] 4072 left the frame
+
+[notice ] [2015-08-12-09-33-02-776] 4231 entered the frame
+
+[notice ] [2015-08-12-09-33-05-781] 4231 left the frame
+
+[notice ] [2015-08-12-09-33-21-641] 4233 entered the frame
+
+[notice ] [2015-08-12-09-33-22-876] 4233 left the frame
+
+[notice ] [2015-08-12-09-33-39-942] 4235 entered the frame
+
+[notice ] [2015-08-12-09-33-41-176] 4235 left the frame
+
+[notice ] [2015-08-12-09-33-42-876] 4239 entered the frame
+

@@ -1,0 +1,490 @@
+﻿Build started 10/16/2015 4:58:31 PM.
+     1>Project "C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\apps\RememberingTheFuture\circulate\circulate.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\inc" /I..\..\..\addons\ofxKinectForWindows2\src /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\libs\openssl\include /I..\..\..\addons /I..\..\..\addons\ofxAssimpModelLoader\libs /I..\..\..\addons\ofxAssimpModelLoader\src /I..\..\..\addons\ofxAssimpModelLoader\libs\assimp /I..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include /I..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\Compiler /I..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib /I..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs /I..\..\..\addons\ofxKinectForWindows2\libs /I..\..\..\addons\ofxKinectForWindows2\src /I..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2 /I..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Data /I..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source /I..\..\..\addons\ofxSplashScreen\libs /I..\..\..\addons\ofxTween\src\Easings /I..\..\..\addons\ofxTween\src /I..\..\..\addons\ofxXmlSettings\src /I..\..\..\addons\ofxXmlSettings\libs /I..\..\..\addons\ofxSplashScreen\src\ /Z7 /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.cpp ..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpMeshHelper.cpp ..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.cpp ..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.cpp ..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Device.cpp ..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\BaseImage.cpp ..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Body.cpp ..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\BodyIndex.cpp ..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Color.cpp ..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Depth.cpp ..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Infrared.cpp ..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\LongExposureInfraRed.cpp ..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Utils.cpp ..\..\..\addons\ofxSplashScreen\src\ofxSplashScreen.cpp ..\..\..\addons\ofxTween\src\Easings\ofxEasing.cpp ..\..\..\addons\ofxTween\src\Easings\ofxEasingBack.cpp ..\..\..\addons\ofxTween\src\Easings\ofxEasingBounce.cpp ..\..\..\addons\ofxTween\src\Easings\ofxEasingCirc.cpp ..\..\..\addons\ofxTween\src\Easings\ofxEasingCubic.cpp ..\..\..\addons\ofxTween\src\Easings\ofxEasingElastic.cpp ..\..\..\addons\ofxTween\src\Easings\ofxEasingExpo.cpp ..\..\..\addons\ofxTween\src\Easings\ofxEasingLinear.cpp ..\..\..\addons\ofxTween\src\Easings\ofxEasingQuad.cpp ..\..\..\addons\ofxTween\src\Easings\ofxEasingQuart.cpp ..\..\..\addons\ofxTween\src\Easings\ofxEasingQuint.cpp ..\..\..\addons\ofxTween\src\Easings\ofxEasingSine.cpp ..\..\..\addons\ofxTween\src\ofxTween.cpp ..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp ..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp ..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp ..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp src\Costume.cpp src\Integratorf.cpp src\IntegratorVec3f.cpp src\JointSet.cpp src\main.cpp src\ofApp.cpp src\Segment.cpp src\Ticker.cpp
+         ofxAssimpAnimation.cpp
+         ofxAssimpMeshHelper.cpp
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\aiMesh.h(459): warning C4099: 'aiMesh' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpMeshHelper.h(12) : see declaration of 'aiMesh'
+         ofxAssimpModelLoader.cpp
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiMesh.h(459): warning C4099: 'aiMesh' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpMeshHelper.h(12) : see declaration of 'aiMesh'
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpModelLoader.h(22): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\aiScene.h(228) : see declaration of 'aiScene'
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpModelLoader.h(23): warning C4099: 'aiNode' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\aiScene.h(70) : see declaration of 'aiNode'
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpModelLoader.h(132): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpModelLoader.h(133): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.cpp(575): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.cpp(587): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.cpp(598): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+         ofxAssimpTexture.cpp
+         Device.cpp
+         BaseImage.cpp
+         Body.cpp
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(170): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(171): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\libs\openFrameworks\types\ofParameter.h(157): warning C4003: not enough actual parameters for macro 'min'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\libs\openFrameworks\types\ofParameter.h(158): warning C4003: not enough actual parameters for macro 'max'
+         BodyIndex.cpp
+         Color.cpp
+         Depth.cpp
+         Infrared.cpp
+         LongExposureInfraRed.cpp
+         Utils.cpp
+         ofxSplashScreen.cpp
+         ofxEasing.cpp
+         ofxEasingBack.cpp
+         ofxEasingBounce.cpp
+         ofxEasingCirc.cpp
+         ofxEasingCubic.cpp
+         ofxEasingElastic.cpp
+     1>..\..\..\addons\ofxTween\src\Easings\ofxEasingElastic.cpp(9): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\addons\ofxTween\src\Easings\ofxEasingElastic.cpp(17): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\addons\ofxTween\src\Easings\ofxEasingElastic.cpp(28): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\addons\ofxTween\src\Easings\ofxEasingElastic.cpp(31): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxkinectforwindows2\src\ofxkinectforwindows2\data\joint.h(51): warning C4715: 'ofxKinectForWindows2::Data::Joint::getProjected' : not all control paths return a value
+         Compiling...
+         ofxEasingExpo.cpp
+         ofxEasingLinear.cpp
+         ofxEasingQuad.cpp
+         ofxEasingQuart.cpp
+         ofxEasingQuint.cpp
+         ofxEasingSine.cpp
+     1>..\..\..\addons\ofxTween\src\Easings\ofxEasingSine.cpp(4): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\addons\ofxTween\src\Easings\ofxEasingSine.cpp(7): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\addons\ofxTween\src\Easings\ofxEasingSine.cpp(11): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         ofxTween.cpp
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(170): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(171): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\libs\openFrameworks\types\ofParameter.h(157): warning C4003: not enough actual parameters for macro 'min'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\libs\openFrameworks\types\ofParameter.h(158): warning C4003: not enough actual parameters for macro 'max'
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         ofxXmlSettings.cpp
+         Costume.cpp
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\apps\rememberingthefuture\circulate\src\Integratorf.h(6): warning C4005: 'ATTRACTION' : macro redefinition
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\apps\rememberingthefuture\circulate\src\IntegratorVec3f.h(6) : see previous definition of 'ATTRACTION'
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiMesh.h(459): warning C4099: 'aiMesh' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpMeshHelper.h(12) : see declaration of 'aiMesh'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(22): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\aiScene.h(228) : see declaration of 'aiScene'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(23): warning C4099: 'aiNode' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\aiScene.h(70) : see declaration of 'aiNode'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(132): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(133): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+         Integratorf.cpp
+         IntegratorVec3f.cpp
+         JointSet.cpp
+         main.cpp
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiMesh.h(459): warning C4099: 'aiMesh' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpMeshHelper.h(12) : see declaration of 'aiMesh'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(22): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\aiScene.h(228) : see declaration of 'aiScene'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(23): warning C4099: 'aiNode' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\aiScene.h(70) : see declaration of 'aiNode'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(132): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(133): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\apps\rememberingthefuture\circulate\src\Integratorf.h(6): warning C4005: 'ATTRACTION' : macro redefinition
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\apps\rememberingthefuture\circulate\src\IntegratorVec3f.h(6) : see previous definition of 'ATTRACTION'
+         ofApp.cpp
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiMesh.h(459): warning C4099: 'aiMesh' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpMeshHelper.h(12) : see declaration of 'aiMesh'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(22): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\aiScene.h(228) : see declaration of 'aiScene'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(23): warning C4099: 'aiNode' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\aiScene.h(70) : see declaration of 'aiNode'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(132): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(133): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\apps\rememberingthefuture\circulate\src\Integratorf.h(6): warning C4005: 'ATTRACTION' : macro redefinition
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\apps\rememberingthefuture\circulate\src\IntegratorVec3f.h(6) : see previous definition of 'ATTRACTION'
+         Segment.cpp
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\apps\rememberingthefuture\circulate\src\Integratorf.h(6): warning C4005: 'ATTRACTION' : macro redefinition
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\apps\rememberingthefuture\circulate\src\IntegratorVec3f.h(6) : see previous definition of 'ATTRACTION'
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiMesh.h(459): warning C4099: 'aiMesh' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\src\ofxAssimpMeshHelper.h(12) : see declaration of 'aiMesh'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(22): warning C4099: 'aiScene' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\aiScene.h(228) : see declaration of 'aiScene'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(23): warning C4099: 'aiNode' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\libs\assimp\include\aiScene.h(70) : see declaration of 'aiNode'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(132): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+     1>C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h(133): warning C4099: 'aiVector3D' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+                 c:\users\joellewis\desktop\of_v0.8.4_vs_release\addons\ofxassimpmodelloader\libs\assimp\include\aiVector3D.h(61) : see declaration of 'aiVector3D'
+         Ticker.cpp
+         Generating Code...
+     1>c:\users\joellewis\desktop\of_v0.8.4_vs_release\apps\rememberingthefuture\circulate\src\segment.cpp(141): warning C4715: 'Segment::getQuaternion' : not all control paths return a value
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"obj\Release\icon.res" icon.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\circulate.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\Lib\x64" /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\Lib\x86" /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs /LIBPATH:..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\Lib\x86\Kinect20.lib" kinect20.lib "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudio.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib crypt32.lib libeay32MD.lib ssleay32MD.lib PocoFoundationmd.lib PocoNetmd.lib PocoUtilmd.lib PocoXMLmd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib assimp.lib /NODEFAULTLIB:PocoFoundationd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\circulate.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\circulate.lib" /MACHINE:X86 /SAFESEH obj\Release\icon.res
+         obj\Release\ofxAssimpAnimation.obj
+         obj\Release\ofxAssimpMeshHelper.obj
+         obj\Release\ofxAssimpModelLoader.obj
+         obj\Release\ofxAssimpTexture.obj
+         obj\Release\Device.obj
+         obj\Release\BaseImage.obj
+         obj\Release\Body.obj
+         obj\Release\BodyIndex.obj
+         obj\Release\Color.obj
+         obj\Release\Depth.obj
+         obj\Release\Infrared.obj
+         obj\Release\LongExposureInfraRed.obj
+         obj\Release\Utils.obj
+         obj\Release\ofxSplashScreen.obj
+         obj\Release\ofxEasing.obj
+         obj\Release\ofxEasingBack.obj
+         obj\Release\ofxEasingBounce.obj
+         obj\Release\ofxEasingCirc.obj
+         obj\Release\ofxEasingCubic.obj
+         obj\Release\ofxEasingElastic.obj
+         obj\Release\ofxEasingExpo.obj
+         obj\Release\ofxEasingLinear.obj
+         obj\Release\ofxEasingQuad.obj
+         obj\Release\ofxEasingQuart.obj
+         obj\Release\ofxEasingQuint.obj
+         obj\Release\ofxEasingSine.obj
+         obj\Release\ofxTween.obj
+         obj\Release\tinyxml.obj
+         obj\Release\tinyxmlerror.obj
+         obj\Release\tinyxmlparser.obj
+         obj\Release\ofxXmlSettings.obj
+         obj\Release\Costume.obj
+         obj\Release\Integratorf.obj
+         obj\Release\IntegratorVec3f.obj
+         obj\Release\JointSet.obj
+         obj\Release\main.obj
+         obj\Release\ofApp.obj
+         obj\Release\Segment.obj
+         obj\Release\Ticker.obj
+         C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\libs\openFrameworksCompiled\lib\vs\openframeworksLib.lib
+     1>PocoFoundationmd.lib(Mutex.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Bugcheck.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Exception.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Timestamp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(AtomicCounter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(File.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Debugger.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Path.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(DirectoryIterator.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(UnicodeConverter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Ascii.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(StringTokenizer.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Environment.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(TextConverter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(TextIterator.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(UTF8Encoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(UTF16Encoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(TextEncoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(ASCIIEncoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Latin1Encoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Latin9Encoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Windows1252Encoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(RWLock.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>openframeworksLib.lib(ofVbo.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(SSLManager.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(Context.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(HTTPSClientSession.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(HTTPSStreamFactory.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(KeyConsoleHandler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(ConsoleCertificateHandler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(X509Certificate.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(VerificationErrorArgs.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(PrivateKeyFactoryMgr.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(CertificateHandlerFactoryMgr.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(Utility.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(SSLException.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(SecureStreamSocket.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(PrivateKeyPassphraseHandler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(InvalidCertificateHandler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(PrivateKeyFactory.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(KeyFileHandler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(CertificateHandlerFactory.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(AcceptCertificateHandler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(RejectCertificateHandler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(SecureSocketImpl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(SecureStreamSocketImpl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetSSLmd.lib(Session.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoCryptomd.lib(OpenSSLInitializer.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoCryptomd.lib(X509Certificate.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(LocalDateTime.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(DateTimeFormatter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(URI.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Timespan.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Event.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Condition.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(RegularExpression.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Runnable.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Thread.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(RefCountedObject.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(URIStreamFactory.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(URIStreamOpener.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(NullStream.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(StreamCopier.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Format.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(RandomStream.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(DateTimeParser.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(DateTime.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Timezone.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(NumberFormatter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(DateTimeFormat.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(NumberParser.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(ThreadLocal.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(ErrorHandler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(FileStreamFactory.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(MemoryStream.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(FileStream.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPSession.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPClientSession.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPRequest.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPResponse.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPStreamFactory.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPMessage.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(NetException.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(StreamSocket.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(NameValueCollection.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPIOStream.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPCredentials.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(IPAddress.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HostEntry.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(DNS.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(Socket.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(SocketAddress.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(SocketImpl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(StreamSocketImpl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPBufferAllocator.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPHeaderStream.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPStream.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPFixedLengthStream.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPChunkedStream.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(MessageHeader.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPCookie.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(MediaType.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPAuthenticationParams.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPBasicCredentials.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoNetmd.lib(HTTPDigestCredentials.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(AbstractConfiguration.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(OptionException.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(Application.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(ConfigurationView.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(Subsystem.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(LayeredConfiguration.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(OptionSet.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(SystemConfiguration.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(MapConfiguration.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(PropertyFileConfiguration.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(IniFileConfiguration.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(XMLConfiguration.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(LoggingSubsystem.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(OptionProcessor.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(Option.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoUtilmd.lib(LoggingConfigurator.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(Element.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(Document.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(DOMWriter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(InputSource.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(DOMParser.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(XMLReader.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(AbstractNode.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(AbstractContainerNode.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(Name.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(NamePool.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(Attr.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(XMLException.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(DOMException.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(ElementsByTagNameList.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(CharacterData.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(AttrMap.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(MutationEvent.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(DocumentEvent.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(DOMImplementation.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(DocumentFragment.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(Text.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(Comment.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(CDATASection.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(ProcessingInstruction.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(EntityReference.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(Entity.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(Notation.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(XMLWriter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(DOMSerializer.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(SAXParser.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(DOMBuilder.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(WhitespaceFilter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(DOMObject.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(EventTarget.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(Node.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(Event.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(ChildNodesList.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(EventDispatcher.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(EventException.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(NamespaceSupport.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(NodeList.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(NamedNodeMap.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(DocumentType.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(ContentHandler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(LexicalHandler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(DTDHandler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(AttributesImpl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(SAXException.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(ParserEngine.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(EntityResolverImpl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(NamespaceStrategy.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(XMLFilterImpl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(DTDMap.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(Attributes.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(Locator.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(LocatorImpl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(EntityResolver.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(XMLFilter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoXMLmd.lib(ErrorHandler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(CountingStream.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Base64Encoder.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(MemoryPool.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Base64Decoder.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(DigestEngine.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(MD5Engine.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Message.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Logger.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(ConsoleChannel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Process.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(LineEndingConverter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(FormattingChannel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(PatternFormatter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(LoggingRegistry.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(LoggingFactory.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(StreamConverter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Channel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(NamedEvent.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(PipeImpl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Pipe.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Formatter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(AsyncChannel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(FileChannel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(SplitterChannel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(NullChannel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(EventLogChannel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(WindowsConsoleChannel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Configurable.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Notification.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(NotificationQueue.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(LogFile.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(ArchiveStrategy.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(RotateStrategy.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(PurgeStrategy.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(NotificationCenter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(DeflatingStream.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(ActiveDispatcher.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+     1>PocoFoundationmd.lib(Void.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in ofxAssimpAnimation.obj
+            Creating library bin\circulate.lib and object bin\circulate.exp
+     1>PocoFoundationmd.lib(StreamConverter.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(DeflatingStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoXMLmd.lib(SAXException.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(CountingStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Base64Encoder.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(LineEndingConverter.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPFixedLengthStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPChunkedStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPBasicCredentials.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoXMLmd.lib(XMLWriter.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(FileStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPClientSession.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPHeaderStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Thread.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(NullStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Format.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(MemoryStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Bugcheck.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Environment.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoCryptomd.lib(X509Certificate.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(RegularExpression.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (__imp_?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Base64Decoder.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(LineEndingConverter.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(StreamConverter.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(DeflatingStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoXMLmd.lib(XMLWriter.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoXMLmd.lib(SAXException.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(CountingStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Base64Encoder.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPFixedLengthStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPChunkedStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPBasicCredentials.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(FileStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPClientSession.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPIOStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPHeaderStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(NullStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Format.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(RandomStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(MemoryStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Bugcheck.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Environment.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(RegularExpression.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Thread.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Base64Decoder.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(LineEndingConverter.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(StreamConverter.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(DeflatingStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPFixedLengthStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPChunkedStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPBasicCredentials.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(CountingStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(FileStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPIOStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPHeaderStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoCryptomd.lib(X509Certificate.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(NullStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(RandomStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(MemoryStream.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Base64Decoder.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(LineEndingConverter.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(StreamConverter.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(DeflatingStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPChunkedStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPBasicCredentials.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(CountingStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(Base64Encoder.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPIOStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPHeaderStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoNetmd.lib(HTTPFixedLengthStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(NullStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(RandomStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(MemoryStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(FileStream.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>PocoFoundationmd.lib(StreamCopier.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::ios_base::operator void *(void)const " (__imp_??Bios_base@std@@QBEPAXXZ)
+     1>PocoFoundationmd.lib(ConsoleChannel.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::endl(class std::basic_ostream<char,struct std::char_traits<char> > &)" (__imp_?endl@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@1@AAV21@@Z)
+     1>bin\circulate.exe : fatal error LNK1120: 6 unresolved externals
+     1>Done Building Project "C:\Users\JoelLewis\Desktop\of_v0.8.4_vs_release\apps\RememberingTheFuture\circulate\circulate.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:42.15

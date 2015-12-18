@@ -1,0 +1,99 @@
+
+
+--------------------------------------- 2015-08-24-16-51-15-024
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[notice ] [2015-08-24-16-51-33-267] 34171 entered the frame
+
+[notice ] [2015-08-24-16-51-33-267] 34417 entered the frame
+
+[notice ] [2015-08-24-16-51-33-267] 34408 entered the frame
+
+[notice ] [2015-08-24-16-51-37-337] 34417 left the frame
+
+[notice ] [2015-08-24-16-51-39-009] 34461 entered the frame
+
+[notice ] [2015-08-24-16-51-49-570] 34461 left the frame
+
+[notice ] [2015-08-24-16-51-52-635] 34499 entered the frame
+
+[notice ] [2015-08-24-16-51-54-871] 34499 left the frame
+
+[notice ] [2015-08-24-16-51-57-336] 34511 entered the frame
+
+[notice ] [2015-08-24-16-52-05-103] 34511 left the frame
+
+[notice ] [2015-08-24-16-52-07-203] 34533 entered the frame
+
+[notice ] [2015-08-24-16-52-07-611] 34408 left the frame
+
+[notice ] [2015-08-24-16-52-10-136] 34533 left the frame
+
+[notice ] [2015-08-24-16-52-10-337] 34540 entered the frame
+
+[notice ] [2015-08-24-16-52-13-737] 34556 entered the frame
+
+[notice ] [2015-08-24-16-52-19-837] 34171 left the frame
+
+[notice ] [2015-08-24-16-52-21-613] 34563 entered the frame
+
+[notice ] [2015-08-24-16-52-22-039] 34556 left the frame
+
+[notice ] [2015-08-24-16-52-24-773] 34591 entered the frame
+
+[notice ] [2015-08-24-16-52-29-338] 34540 left the frame
+
+[notice ] [2015-08-24-16-52-31-079] 34563 left the frame
+
+[notice ] [2015-08-24-16-52-31-678] 34591 left the frame
+
+[notice ] [2015-08-24-16-53-31-640] 34605 entered the frame
+
+[notice ] [2015-08-24-16-53-34-475] 34605 left the frame
+
+[notice ] [2015-08-24-16-54-04-583] 34615 entered the frame
+
+[notice ] [2015-08-24-16-54-05-407] 34615 left the frame
+
+[notice ] [2015-08-24-16-56-01-713] 34659 entered the frame
+
+[notice ] [2015-08-24-16-56-03-446] 34659 left the frame
+
+[notice ] [2015-08-24-16-56-59-615] 34717 entered the frame
+
+[notice ] [2015-08-24-16-57-01-815] 34717 left the frame
+
+[notice ] [2015-08-24-16-57-44-518] 34728 entered the frame
+
+[notice ] [2015-08-24-16-57-50-957] 34741 entered the frame
+
+[notice ] [2015-08-24-16-57-53-052] 34767 entered the frame
+

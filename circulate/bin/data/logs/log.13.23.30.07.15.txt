@@ -1,0 +1,55 @@
+
+
+--------------------------------------- 2015-07-30-13-23-32-397
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[ error ] ofxAssimpModelLoader: loadModel(): No meshes remaining
+[notice ] [2015-07-30-13-23-33-260] 1919251200 entered the frame
+
+[notice ] [2015-07-30-13-23-33-260] 0 entered the frame
+
+[notice ] [2015-07-30-13-23-33-402] 0 left the frame
+
+[notice ] [2015-07-30-13-23-33-403] 1919251200 left the frame
+
+[notice ] [2015-07-30-13-28-24-638] 152 entered the frame
+
+[notice ] [2015-07-30-13-28-29-306] 152 left the frame
+
+[notice ] [2015-07-30-13-28-42-272] 319 entered the frame
+
+[notice ] [2015-07-30-13-28-44-637] 319 left the frame
+
+[notice ] [2015-07-30-13-28-56-272] 372 entered the frame
+
+[notice ] [2015-07-30-13-29-08-272] 372 left the frame
+
+[notice ] [2015-07-30-13-29-11-239] 500 entered the frame
+
+[notice ] [2015-07-30-13-29-13-372] 500 left the frame
+
+[notice ] [2015-07-30-13-29-18-907] 581 entered the frame
+
+[notice ] [2015-07-30-13-29-21-473] 581 left the frame
+
+[notice ] [2015-07-30-13-30-30-816] 1101 entered the frame
+
+[notice ] [2015-07-30-13-30-52-676] 1101 left the frame
+
+[notice ] [2015-07-30-13-35-50-422] 2227 entered the frame
+
+[notice ] [2015-07-30-13-36-08-956] 2227 left the frame
+
+[notice ] [2015-07-30-13-36-10-789] 2316 entered the frame
+
+[notice ] [2015-07-30-13-36-15-156] 2349 entered the frame
+
+[notice ] [2015-07-30-13-36-17-623] 2349 left the frame
+
+[notice ] [2015-07-30-13-36-31-990] 2316 left the frame
+
+[notice ] [2015-07-30-13-36-35-157] 2601 entered the frame
+
+[notice ] [2015-07-30-13-36-47-424] 2601 left the frame
+
